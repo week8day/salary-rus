@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 import streamlit as st
 
-DATA_SOURCE = 'local' # 'local' or 'remote'
+DATA_SOURCE = 'remote' # 'local' or ''
 DATA_DIR = 'data/csv/'
 IMAGE_DIR = 'data/images/'
 WORK_DICT = {
