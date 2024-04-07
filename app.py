@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 import streamlit as st
 
-DATA_SOURCE = 'remote' # 'local' or 'remote'
+DATA_SOURCE = 'local' # '' or 'remote'
 DATA_DIR = 'data/csv/'
 IMAGE_DIR = 'data/images/'
 WORK_DICT = {
@@ -111,8 +111,6 @@ def load_data(source='local'):
         df = conn.query('SELECT * FROM salary;', ttl="10m")
 
         df.set_index('year', inplace=True)
-
-        st.write(df)
 
     else:
         # Salary
