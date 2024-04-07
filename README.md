@@ -25,7 +25,7 @@
 
 ## Jupyter Notebook с анализом данных
 
-[`ipynb/salary.ipynb`](https://github.com/week8day/salary-rus/blob/main/ipynb/salary.ipynb)
+[ipynb/salary.ipynb](https://github.com/week8day/salary-rus/blob/main/ipynb/salary.ipynb)
 
 ## Запуск приложения
 
