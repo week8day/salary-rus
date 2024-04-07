@@ -259,7 +259,7 @@ def sidebar_input_features():
     st.sidebar.text('')
     st.sidebar.subheader(interface_dict['links_title'][interface_lang])
 
-    github_url = "https://github.com/week8day/ML-prototype"
+    github_url = "https://github.com/week8day/salary-rus"
     st.sidebar.write("Github: %s" % github_url)
 
     return data
