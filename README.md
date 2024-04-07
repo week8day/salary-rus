@@ -55,3 +55,5 @@ DATA_SOURCE = 'local' # 'local' or 'remote'
 ```python
 INTERFACE_LANG = 'rus'
 ```
+
+Автор: Сергей Андронов
