@@ -110,6 +110,8 @@ def load_data(source='local'):
         # Perform query
         df = conn.query('SELECT * FROM salary;', ttl="10m")
 
+        df.set_index('year', inplace=True)
+
         st.write(df)
 
     else:
