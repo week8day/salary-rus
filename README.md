@@ -4,7 +4,7 @@
 
 ## Источники данных
 
-Среднемесячная номинальная начисленная заработная плата работников организаций по видам экономической деятельности в Российской Федерации за 2000-2023 гг. [https://rosstat.gov.ru/labor_market_employment_salaries](https://rosstat.gov.ru/labor_market_employment_salaries).
+Среднемесячная номинальная начисленная заработная плата работников организаций по видам экономической деятельности в Российской Федерации за 2000-2023 гг. [https://rosstat.gov.ru/labor_market_employment_salaries](https://rosstat.gov.ru/labor_market_employment_salaries)
 
 Уровень инфляции [https://уровень-инфляции.рф/таблицы-инфляции](https://xn----ctbjnaatncev9av3a8f8b.xn--p1ai/%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B-%D0%B8%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D0%B8)
 
@@ -12,7 +12,7 @@
 
 ## Web-приложение
 
-Готовое приложение [https://salary-rus.streamlit.app](https://salary-rus.streamlit.app/).
+Готовое приложение [https://salary-rus.streamlit.app](https://salary-rus.streamlit.app/)
 
 ## Файлы
 
@@ -21,9 +21,11 @@
 
 ## Данные
 
-- `data/csv/`: CSV-файлы средних зарплат, инфляции и уровня безработицы
-- `data/images/`: картинки
-- `ipynb/`: Jupyter Notebook с анализом данных
+- `data/csv/` CSV-файлы средних зарплат, инфляции и уровня безработицы
+
+## Jupyter Notebook с анализом данных
+
+[`ipynb/salary.ipynb`](https://github.com/week8day/salary-rus/blob/main/ipynb/salary.ipynb)
 
 ## Запуск приложения
 
