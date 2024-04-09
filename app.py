@@ -198,7 +198,7 @@ def write_user_data(user_data):
     else:
         st.subheader(interface_dict['chart_title'][interface_lang])
         chart_data = df[user_data['WorkCat'] + [WORK_DICT[interface_lang]['total']]]
-    # chart_data.rename(index={'b': '21 - 34', 'c': '35 - 49', 'd': '50 - 64', 'e': '> 65'}, inplace=True)
+
     st.line_chart(data=chart_data, color=COLORS[:len(user_data['WorkCat']) + 1], height=350)
 
     if user_data['ShowData']:
